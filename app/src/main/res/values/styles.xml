@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="default_smart_toolbar_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="SmartToolbarTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SmartToolbarLeftRightButtonStyle">
+        <item name="android:paddingLeft">@dimen/default_icon_padding_start</item>
+        <item name="android:paddingRight">@dimen/default_icon_padding_end</item>
+        <item name="android:layout_width">@dimen/default_icon_width</item>
+        <item name="android:layout_height">@dimen/default_icon_height</item>
+        <item name="android:background">@drawable/ripple_trans_circle</item>
+    </style>
+
+</resources>
